@@ -1,9 +1,5 @@
 # imark.by
 
-<head>
-<link rel="stylesheet" type="text/css" href="css/style.css" media=”screen” />
-</head>
-
 <div class="wrapper">
 <b>Продажа компьютерной и другой техники.</b> <br/>
 
