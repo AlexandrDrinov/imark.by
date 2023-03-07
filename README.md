@@ -5,11 +5,11 @@
 
 <div class="content">
 ПРАЙСЫ:
-
+<br/><br/>
 <a href="prices/vodonagrevatel_electrolux.pdf">Водонагреватели Electrolux</a> - электрические накопительные и проточные
 водонагреватели
 </div>
-
+<br/><br/>
 <div class="footer">
     <table> 
         <tr>
