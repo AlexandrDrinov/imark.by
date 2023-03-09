@@ -1915,6 +1915,12 @@ section {
 	font-size: 18px;	 
   }
   
+    .header-in-body-sub2 {
+	  font-family: "Open Sans", sans-serif;
+	 padding-top: 15px;
+	font-size: 18px;	 
+  }
+  
 .header-desc-center {
 	text-align: center;
 }
