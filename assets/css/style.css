@@ -430,6 +430,12 @@ h6 {
   padding-top: 60px;
 }
 
+@media (max-width: 750px) {
+	#hero .container {
+	  padding-top: 45px;
+	}
+}
+
 #hero h1 {
   margin: 0 0 10px 0;
   font-size: 48px;
@@ -570,7 +576,7 @@ section {
 
 .section-title {
   text-align: left;
-  padding-bottom: 10px;
+  /*padding-bottom: 10px;*/
 }
 
 .section-title h2 {
@@ -1768,7 +1774,7 @@ section {
 }
 
 #footer .footer-top {
-  padding: 25px 0 0px 0;
+  padding: 24px 0 0px 0;
   background: #fff;
 }
 
