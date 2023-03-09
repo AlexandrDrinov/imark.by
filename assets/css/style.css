@@ -120,7 +120,7 @@ h6 {
 #header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 15px 0;
+  padding: 5px 0;
 }
 
 #header.header-scrolled,
@@ -140,14 +140,17 @@ h6 {
 }
 
 #header .phone {
-	font-family: 'Caveat', cursive;
+	/*font-family: 'Caveat', cursive;*/
+	font-family: "Jost", sans-serif;
 	color: white;
   margin: 0;
   padding: 0;
 }
 
-#header .phone-small{
-	font-family: 'Caveat', cursive;
+#header .phone-small{	
+	/*font-family: 'Caveat', cursive;*/
+	font-family: "Jost", sans-serif;
+	font-size: x-large;
 	color: white;
   margin: 0;
   padding: 0;
@@ -424,7 +427,7 @@ h6 {
 }
 
 #hero .container {
-  padding-top: 72px;
+  padding-top: 60px;
 }
 
 #hero h1 {
@@ -888,9 +891,10 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
-  padding: 50px 30px;
+  padding: 20px 10px 10px 20px;
   transition: all ease-in-out 0.4s;
   background: #fff;
+  width: 100%;
 }
 
 .services .icon-box .icon {
@@ -909,7 +913,21 @@ section {
   font-size: 24px;
 }
 
+.services .icon-box span {
+	font-family: "Jost", sans-serif;
+  font-weight: 500;
+  margin-bottom: 15px;
+  margin-left: 10px;
+  font-size: 24px;
+}
+
 .services .icon-box h4 a {
+  color: #37517e;
+  transition: ease-in-out 0.3s;
+}
+
+.services .icon-box span a {
+	font-family: "Jost", sans-serif;
   color: #37517e;
   transition: ease-in-out 0.3s;
 }
@@ -1866,8 +1884,8 @@ section {
 
 @media (max-width: 768px) {
   #footer .footer-bottom {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    /*padding-top: 20px;
+    padding-bottom: 20px;*/
   }
 
   #footer .copyright,
@@ -1878,5 +1896,19 @@ section {
 
   #footer .credits {
     padding-top: 4px;
+  }  
+}
+
+.header-in-body {
+	 padding-top: 20px;
   }
+  
+  .header-in-body-sub {
+	  font-family: "Open Sans", sans-serif;
+	 padding-top: 5px;
+	font-size: 18px;	 
+  }
+  
+.header-desc-center {
+	text-align: center;
 }
